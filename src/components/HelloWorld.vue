@@ -1,14 +1,27 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+
+    <my-component></my-component>
+
+    <my-component v-bind:prop1="parentValue"></my-component>
+    <!-- Or more succinctly, -->
+    <my-component :prop1="parentValue"></my-component>
+
+    <my-component v-on:click="parentHandler"></my-component>
+    <!-- Or more succinctly, -->
+    <my-component @myEvent="parentHandler"></my-component>
   </div>
 </template>
 
 <script>
+  import MyComponent from './myComponent.vue'
 
 export default {
   name: 'HelloWorld',
-  components: {},
+  components: {
+    MyComponent
+  },
   props: {
     msg: String
   }

@@ -45,7 +45,7 @@
           ],
           "listeResultat": [
             {
-              "nom": "fraj",
+              "nom": "fraja",
               "prenom": "saber",
               "taille": 180,
               "enCouple": false
