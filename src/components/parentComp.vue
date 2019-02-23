@@ -8,15 +8,14 @@
 </template>
 
 <script lang="js">
-  import appInput from "./input.vue";
   import Message from "./message";
 
   export default  {
     name: 'parent-comp',
     props: [],
     components: {
-      Message,
-      appInput
+      Message
+
     },
     mounted() {
 
