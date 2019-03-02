@@ -2,7 +2,7 @@
 
   <section class="input">
     <h1>input Component</h1>
-    <input type="text" :value="msg" @input="changeMessahe">
+    <input type="text" :value="msg" @input="changeMessage">
     <button  @click="init">init</button>
     <button  @click="modifierParent"> modifier prop1 de parent</button>
 <!--     <input type="text" v-bind:value="msg">-->
@@ -28,7 +28,7 @@
       modifierParent: function(){
         this.$emit('ordreModifierParent','child proposition');
       },
-      changeMessahe: function (event) {
+      changeMessage: function (event) {
         this.message= event.target.value;
         this.$emit('messageChanged',this.message);
       }
