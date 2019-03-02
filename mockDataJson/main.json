@@ -1,0 +1,40 @@
+{
+  "a": {
+    "host": null
+  },
+  "b": {
+    "port-number": 4545
+  },
+  "users": [
+    {
+      "_id": 1,
+      "name": "admin",
+      "role": "admin",
+      "enabled": true
+    },
+    {
+      "_id": 1,
+      "name": "saber",
+      "role": "admin",
+      "enabled": true
+    },
+    {
+      "_id": 1,
+      "name": "user",
+      "role": "reader",
+      "enabled": true
+    },
+    {
+      "_id": 1,
+      "name": "saber",
+      "role": "",
+      "enabled": true
+    }
+  ],
+  "roles": [
+    "ROLE_ADMIN",
+    "ROLE_USER",
+    "ROLE_MANAGER",
+    "ROLE_ANONYMOUS"
+  ]
+}

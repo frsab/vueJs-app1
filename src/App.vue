@@ -1,37 +1,38 @@
 <template>
-  <div id="app">
-   <!--
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <recherche></recherche>
--->
-    <parentComp></parentComp>
-  </div>
+    <div id="app">
+        <!--
+         <img alt="Vue logo" src="./assets/logo.png">
+         <HelloWorld msg="Welcome to Your Vue.js App"/>
+      -->
+        <recherche></recherche>
+
+        <parentComp></parentComp>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Recherche from "./components/recherche/recherche";
-import parentComp from "./components/parentComp.vue";
+    import HelloWorld from './components/HelloWorld.vue'
+    import Recherche from "./components/recherche/recherche";
+    import parentComp from "./components/parentComp.vue";
 
 
-export default {
-  name: 'app',
-  components: {
-    parentComp,
-    HelloWorld,
-    Recherche
-  }
-}
+    export default {
+        name: 'app',
+        components: {
+            parentComp,
+            HelloWorld,
+            Recherche
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    #app {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 60px;
+    }
 </style>
