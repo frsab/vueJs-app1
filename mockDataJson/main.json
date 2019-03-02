@@ -5,6 +5,17 @@
   "b": {
     "port-number": 4545
   },
+  "map": [
+    {
+      "a1": "value A1"
+    },
+    {
+      "a2": "value A2"
+    },
+    {
+      "a3": "value A3"
+    }
+  ],
   "users": [
     {
       "_id": 1,
