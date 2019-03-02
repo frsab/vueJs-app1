@@ -2,15 +2,8 @@
 
   <section class="recherche">
     <h1>recherche Component</h1>
-    <div class="home">
-      <ul class="posts">
-        <li v-for="post in posts.listeResultat" :key="post.nom" class="post-item">
-          <h1>{{ post.nom }}</h1>
-          <h1>{{ post.prenom }}</h1>
-          <h1>{{ post.taille }}</h1>
-          <h1>{{ post.enCouple }}</h1>
-        </li>
-      </ul>
+    <div>sss
+      <b-table striped hover :items="posts.listeResultat" />
     </div>
   </section>
 </template>
